@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import Navegador from './components/Navegador';
+
+class App extends Component {
+  //state = {  } 
+  
+  render() {     
+    return (
+      <div className="app container">
+        <div className="jumbotron">
+          {/*<Navegador />*/}
+        </div>
+      </div>
+    );
+  }
+}
+ 
+export default App;
